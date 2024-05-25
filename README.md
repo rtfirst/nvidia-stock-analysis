@@ -16,34 +16,34 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository:**
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/rtfirst/nvidia-stock-analysis.git
    cd nvidia-stock-analysis
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
 
    Make sure you have [Node.js](https://nodejs.org/) installed. Then run:
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Start the backend server:**
 
    The backend server fetches the stock data from Yahoo Finance.
 
-   \`\`\`bash
+   ```bash
    node server.js
-   \`\`\`
+   ```
 
 4. **Start the Vue.js application:**
 
    In a new terminal, run:
 
-   \`\`\`bash
+   ```bash
    npm run serve
-   \`\`\`
+   ```
 
 5. **Open the application in your browser:**
 
@@ -64,7 +64,7 @@ Fetches historical stock data for NVIDIA from Yahoo Finance.
 
 **Response:**
 
-\`\`\`json
+```json
 [
   {
     "date": "2023-05-01",
@@ -77,7 +77,7 @@ Fetches historical stock data for NVIDIA from Yahoo Finance.
   },
   ...
 ]
-\`\`\`
+```
 
 ## Screenshots
 
